@@ -1,0 +1,86 @@
+/*---------------------Header-------------------*/
+
+.registration-header {
+    display: inline;
+}
+
+.logo {
+    background-color: #0C1CF5;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+/*---------------------Home-------------------*/
+
+#home-image {
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#home-h1 {
+    margin-top: 25px;
+}
+
+
+/*---------------------Colours-------------------*/
+
+.brand-blue {
+    background-color: #0024C2;
+    color: white;
+}
+
+.contact-details {
+    background: white;
+    color: #0024C2;
+}
+
+.active {
+    color: #0024C2!important;
+    background: white;
+}
+
+.friendly {
+    color: white;
+    font-style: italic;
+}
+
+.bet {
+    color: #e78200;
+}
+
+.friendly .bet {
+    font-weight: 600;
+    font-size: 60%;
+}
+
+.green {
+    color: green;
+}
+
+/*---------------------Headings-------------------*/
+
+.page-heading {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*---------------------Footer-------------------*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.social {
+    text-align: center;
+}
+
+.font-exo {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.color-white {
+    color: white !important;
+}
+
