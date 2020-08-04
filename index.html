@@ -7,161 +7,131 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Document</title>
+    <title>Friendly Bet</title>
 </head>
 <body>
-<header class="container-fluid">
-    <div class="row" style="height:80px;background-color: #0024C2; color: white">
-        <div class="col-8 col-md-2">
-            <span style="font-size: 2em; font-family: 'Exo 2', sans-serif; font-weight: 500;" class="friendly">friendly</span>
-            <span style="font-size: 2em; font-family: 'Exo 2', sans-serif; font-weight: 500;" class="bet">bet</span>
-        </div>
-        <div class="col-4 col-md-5">Middle header
-        </div>
-        <div class="col-12 col-md-5 registration-header">
-            Registration here
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col">
-            <ul class="nav nav-pills nav-justified">
-                <li class="nav-item col-12 col-md-3">
-                    <a class="nav-link active" href="index.html">Home</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light brand-blue font-exo">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets\images\fblogo1.JPG" class="w-50" alt="Friendly Bet logo">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item col-12 col-md-3">
-                    <div class="dropdown">
-                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Games</button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="games.html#sweepstakes">Sweepstakes</a>
-                                <a class="dropdown-item" href="games.html#lms">Last Man Standing</a>
-                                <a class="dropdown-item" href="games.html#predcomp">Prediction Competitions</a>
-                            </div>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#whyfriendlybet">Why Friendly Bet?</a>
                 </li>
-                <li class="nav-item col-12 col-md-3">
-                    <div class="dropdown">
-                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Sports</button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="sports.html">Football</a>
-                                <a class="dropdown-item" href="sports.html#horse-racing">Horse Racing</a>
-                                <a class="dropdown-item" href="sports.html#golf">Golf</a>
-                                <a class="dropdown-item" href="sports.html#gaa">GAA</a>
-                                <a class="dropdown-item" href="sports.html#rugby">Rugby</a>
-                            </div>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="gametypes.html">Game Types</a>
                 </li>
-                
-                <li class="nav-item col-12 col-md-3">
-                    <a class="nav-link" href="#">Why us?</a>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="sports.html">Sports</a>
                 </li>
-            </ul>
-        </div>
-    </div>  
-</header>
-<section class="container-fluid">
-    <div class="row">
-        <div class="col-12">
-        <h1 class="text-center" id="home-h1">Welcome to Friendly Bet!</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <img src="assets/images/homepage1.jpg" id="home-image" class="rounded mx-auto d-block" alt="Sports fans celebrating watching sports on TV.">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <h3 class="text-center font-italic">
-            "Your new home of fun social betting"
-            </h3>
-        </div>
-    </div>
-    
-</section>    
-<footer class="container-fluid">
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class=" uppercase">Keep in touch</h3>
+                </ul>
+                <div class="form-inline text-white my-2 my-lg-0">
+                    <label for="exampleFormControlInput1" class="mr-2">Sign up to our newsletter:</label>
+                    <input type="email" class="form-control justify-content-start" id="exampleFormControlInput1" placeholder="Email address">
+                    <button class="btn btn-outline-success my-2 mx-2 my-sm-0" type="submit">Sign Up!</button>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 footer-row-2">
-                    <h5>Follow our social channels:</h5>
+        </nav> 
+    </header>
+    <section>
+        <div class="card border-0 p-b-0">
+            <div class="card-body">
+                <div class="card-title">
+                    <h1 class="page-heading">Welcome to Friendly Bet</h1>
+                    <div class="card-subtitle text-muted mb-3 mt-1"><h3>Your new home of social betting games!</h3></div>
+                    <img src="assets\images\crowd-unsplash.jpg" alt="A crowd of fans" class="img-fluid rounded w-50 mb-3">
+                    <p>At Friendly Bet, we have a wide range of games you can play with others that are great fun and can enhance the social fun
+                    involved in watching sport for all. Our games include sweepstake 'lottery style' draws, Last Man Standing 'knock out style'
+                    games and 'form reading' prediction competitions! Try beat your friends, family, colleagues or simply enhance the social 
+                    enjoyment of sport!</p>
                 </div>
+            </div>    
+        </div>
+        <div class="card border-0">
+            <div class="card-body">
+                <div class="card-title">
+                <h2 id="whyfriendlybet">Why us?</h2>
+                </div>
+                <img src="assets\images\homepage1.jpg" alt="Sports fan celebrating watching TV." class="img-fluid rounded w-75">
+                <div class="card-subtitle my-2"><h3>Why play Friendly Bet games?</h3></div>
+                <p class="ml-2 my-3 lead"><i class="fa fa-check fa-lg green mr-2" aria-hidden="true"></i>Have fun watching sport with friends!</p>
+                <p class="ml-2 my-3 lead"><i class="fa fa-check fa-lg green mr-2" aria-hidden="true"></i>Create the banter in work with colleageus!</p>
+                <p class="ml-2 my-3 lead"><i class="fa fa-check fa-lg green mr-2" aria-hidden="true"></i>See how you're doing against others in real time!</p>
+                <p class="ml-2 my-3 lead"><i class="fa fa-check fa-lg green mr-2" aria-hidden="true"></i>It means more against your mates than the bookies!</p>
+                <p class="ml-2 my-3 lead"><i class="fa fa-check fa-lg green mr-2" aria-hidden="true"></i>Win bragging rights for your next trip to the pub!</p>
+                <p class="ml-2 my-3 lead"><i class="fa fa-check fa-lg green mr-2" aria-hidden="true"></i>Get the craic going on your Whatsapp groups!</p>
             </div>
-            <div class="row">
-                <div class="col-12 footer-row-3">
-                    <ul class="list-inline social">
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid text-center text-md-left">
+            <div class="row brand-blue font-exo pt-3 pb-3">
+                <div class="col-sm-4"> 
+                    <h5>Get in Touch
+                    </h5>
+                    <h6 class="bet pb-1">Contact Us:
+                    </h6>
+                    <p><i class="fa fa-phone mr-2" aria-hidden="true"></i><a href="tel:35318135508" class="badge badge-light">+353181355508</a></p>
+                    <p><i class="fa fa-envelope-o mr-2" aria-hidden="true"></i><a href="mailto:hello@friendlybet.com" class="badge badge-light">Email us</a></p>
+                </div>
+                <div class="col-sm-4 pl-3">
+                    <h5>Keep in Touch
+                    </h5>
+                    <h6 class="bet">Social Channels:
+                    </h6>
+                    <div class="div">
+                    <ul class="list-inline pr-md-3">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/" target="_blank"></a>
+                            <a href="https://www.facebook.com/" class="badge badge-light" target="_blank">
                                 <i class="fa fa-facebook-official" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com/" target="_blank"></a>
+                            <a href="https://twitter.com/" class="badge badge-light" target="_blank">
                                 <i class="fa fa-twitter-square" aria-hidden="true"></i>
                                 <span class="sr-only">Twitter</span>
+                            </a>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 footer-row-3">
-                    <ul class="list-inline social">
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com/" target="_blank"></a>
+                            <a href="https://www.instagram.com/" class="badge badge-light" target="_blank">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.youtube.com/" target="_blank"></a>
+                            <a href="https://www.youtube.com/" class="badge badge-light" target="_blank">
                                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
                                 <span class="sr-only">YouTube</span>
+                            </a>
                         </li>
                     </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Stay in Touch
+                    </h5>
+                    <h6 class="bet">Newsletter sign-up:
+                    </h6>
+                    <div class="form text-black my-2 my-lg-0">
+                    <input type="email" class="form-control my-2" id="exampleFormControlInput" placeholder="Email address">
+                    <button class="btn btn-outline-success btn-sm" type="submit">Sign Up!</button>
+                </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="footer-row-1 uppercase" style="background-color: #0024C2; color: white;">Get in touch</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 footer-row-2">
-                    <h5>Contact us:</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 footer-row-3">
-                    <p><i class="fa fa-phone mr-2" aria-hidden="true"></i><a href="tel:353871355508">Phone</a></p><br>
-                    Email<br>
-                    <p><a href="mailto:hello@friendlybet.com">Send us an email</a></p>
-                </div>
-            </div>
+        <div class="footer-copyright text-center py-0">
+          <small>© Copyright Friendly Bet, Convention Centre House, Beckett Bridge, Dublin 1, Ireland.</small>
         </div>
-        <div class="col-sm-4">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="footer-row-1 uppercase" style="background-color: #0024C2; color: white;">Stay in touch</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 footer-row-2">
-                    <h5>Sign up to our newsletter:</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 footer-row-3">
-                    Newsletter Placeholder.
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
