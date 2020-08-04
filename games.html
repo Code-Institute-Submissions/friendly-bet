@@ -7,180 +7,227 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Document</title>
+    <title>Game Types</title>
 </head>
 <body>
-<header class="container-fluid">
-    <div class="row" style="height:80px;background-color: #0024C2; color: white">
-        <div class="col-8 col-md-2">
-            <span style="font-size: 2em; font-family: 'Exo 2', sans-serif; font-weight: 500;" class="friendly">friendly</span>
-            <span style="font-size: 2em; font-family: 'Exo 2', sans-serif; font-weight: 500;" class="bet">bet</span>
-        </div>
-        <div class="col-4 col-md-5">Middle header
-        </div>
-        <div class="col-12 col-md-5 registration-header">
-            Registration here
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col">
-            <ul class="nav nav-pills nav-justified">
-                <li class="nav-item col-12 col-md-3">
-                    <a class="nav-link active" href="index.html">Home</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light brand-blue font-exo">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets\images\fblogo1.JPG" class="w-50" alt="Friendly Bet logo">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item col-12 col-md-3">
-                    <div class="dropdown">
-                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Games</button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="games.html#sweepstakes">Sweepstakes</a>
-                                <a class="dropdown-item" href="games.html#lms">Last Man Standing</a>
-                                <a class="dropdown-item" href="games.html#predcomp">Prediction Competitions</a>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html#whyfriendlybet">Why Friendly Bet?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="gametypes.html">Game Types</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="sports.html">Sports</a>
+                </li>
+                </ul>
+                <div class="form-inline text-white my-2 my-lg-0">
+                    <label for="exampleFormControlInput1" class="mr-2">Sign up to our newsletter:</label>
+                    <input type="email" class="form-control justify-content-start" id="exampleFormControlInput1" placeholder="Email address">
+                    <button class="btn btn-outline-success my-2 mx-2 my-sm-0" type="submit">Sign Up!</button>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <section>
+        <div class="h1 page-heading ml-3">Game Types
+        </div>
+        <div class="card border-0">
+            <button class="btn btn-lg ml-3 my-2 w-100 brand-blue font-exo" type="button" data-toggle="collapse" data-target="#collapselms" aria-expanded="true" aria-controls="collapselms">
+                Last Man Standing <span class="float-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            </button>
+            <div class="card-body">
+                <div class="collapse show" id="collapselms">
+                    <img src="assets\images\lms-unsplash.jpg" class="card-img-top img w-50" alt="One man standing alone in celebration on a mountain.">
+                    <p class="card-text mt-2">Last Man Standing is a league-based competition whereby each player must select a different team in each game week of the league to win in the hope of progressing to the next round/game week. Those participants with winning selections will stay in the competition the next week while others will be knocked out. Your challenge is to be the last person standing and collect the prize money! Competitions offered include the Premier League in England and the League of Ireland.</p>
+                    <h4 class="card-subtitle mb-1">How to Play</h4>
+                    <p class="card-text">The organiser will choose the league, entry fee and start week for the competition. Once entered, players must choose one team each week and that team must win for them to progress. You cannot choose the same team more than once. In Last Man Standing, the key is knowing when to use your big teams and when to keep them for another day!</p>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#ModalSweepstakes">Rules - Last Man Standing
+                    </button>   
+                        <div class="modal fade" id="ModalSweepstakes" tabindex="-1" role="dialog" aria-labelledby="ModalSweepstakes" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="ModalSweepstakes">Rules - Last Man Standing</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        •	Each participant must select one team each week to win. If your selection fails to win (i.e. draws or loses) you are eliminated.<br>
+                                        •	You can only choose the same team once (unless the competition progresses beyond the first series of fixtures).<br>
+                                        •	The deadline for team selection is two hours before the first match of that week.<br>
+                                        •	If you fail to submit a team you will be assigned the first team in alphabetical order you have not previously selected.<br>
+                                        •	In a week where domestic cup competitions prevent the entry of some of the league’s teams, there will be no fixtures that week.<br>
+                                        •	Where a match is postponed/cancelled due to unforeseen circumstances, those who selected the teams involved will progress to the next round.<br> 
+                                        •	Email reminders will be sent out on a weekly basis along with previews. For GDPR purposes you must opt in to receive these reminders.<br>
+                                        •	Entry fee is €5, €10, €20 or €40, depending on what the game organiser chooses.<br>
+                                        •	The winner will receive 95% of the pot after fees are deducted.<br>
+                                        •	If the competition is still running at the end of the season, it will continue from the start of the following season or, on proposal by the game organiser and following agreement by the remaining players, continue to another tournament.<br>
+                                        •	If all remaining players lose, they all go through to the next round. If some of the remaining players draw and others lose, only the teams that drew progress. If all remaining players draw, they all progress to the next round.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="card border-0">
+            <button class="btn btn-lg ml-3 my-2 w-100 brand-blue font-exo" type="button" data-toggle="collapse" data-target="#collapsesweepstakes" aria-expanded="false" aria-controls="collapsesweepstakes">
+                Sweepstakes <span class="float-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            </button>
+                <div class="card-body">
+                    <div class="collapse" id="collapsesweepstakes">
+                        <img src="assets\images\sweepstake.jpg" class="card-img-top img w-50" alt="Friends watching sport in front of a pot of money.">
+                        <p class="card-text mt-2">Sweepstakes are fun ‘lottery style’ games where each participant goes into an open draw and gets randomly drawn a team (or horse!) who can win them a prize. No   prior knowledge of the sport is required – or even helpful! Sweepstakes offered include the Grand National Sweepstake in horse racing and the FIFA World Cup final tournaments in football.</p>
+                        <h4 class="card-subtitle mb-1">How to Play</h4>
+                        <p class="card-text">Setting up and entering Sweepstake competitions is easy. The organiser chooses the competition, the entry fee and sets the pot prize money distribution breakdown e.g. winner takes all etc. Once you have entered the competition and all players are in the draw will be done. Then it’s time to research your team, or horse, and hope they do the business and win you a prize plus some bragging rights!</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#ModalLMS">Rules - Sweepstakes
+                        </button>   
+                            <div class="modal fade" id="ModalLMS" tabindex="-1" role="dialog" aria-labelledby="ModalLMS" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ModalLMS">Rules - Sweepstakes</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            •	The organiser sets the entry fee (€5, €10, €20 or €50).<br>
+                                            •	It is possible for the organiser to “enable multiple entries” allowing players to make more than one entry if there is a shortage of players needed.<br>
+                                            •	Your entry will be confirmed upon receipt of payment.<br>
+                                            •	Once all players are entered, the draw will take place.<br>
+                                            •	The organiser determines the prize money distribution, i.e. “winner/first places takes all” before the draw and these can be viewed in each competition.<br>
+                                            •	The prize money distributed will be 95% of the pot after fees are deducted.
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                     </div>
-                </li>
-                <li class="nav-item col-12 col-md-3">
-                    <div class="dropdown">
-                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Sports</button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="sports.html#football">Football</a>
-                                <a class="dropdown-item" href="sports.html#horse-racing">Horse Racing</a>
-                                <a class="dropdown-item" href="sports.html#golf">Golf</a>
-                                <a class="dropdown-item" href="sports.html#gaa">GAA</a>
-                                <a class="dropdown-item" href="sports.html#rugby">Rugby</a>
+                </div>
+        </div>
+        <div class="card border-0">
+            <button class="btn btn-lg mx-3 my-2 w-100 w-xs-100 brand-blue font-exo" type="button" data-toggle="collapse" data-target="#collapsepredcomp" aria-expanded="false" aria-controls="collapsepredcomp">
+                Prediction Competitions <span class="float-right"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            </button>
+                <div class="card-body">
+                    <div class="collapse" id="collapsepredcomp">
+                        <img src="assets\images\predcomp-unsplash.jpg" class="card-img-top img w-50" alt="Studying graphs on a computer and mobile device.">
+                        <p class="card-text mt-2">Prediction Competitions give participants to chance to pit their wits against friends and colleagues predicting the correct scores and/or results of that particular tournament! Competitions offered include the FIFA World Cup in football, the Cheltenham racing festival and all four of the golf majors.</p>
+                        <h4 class="card-subtitle mb-1">How to Play</h4>
+                        <p class="card-text">The organiser selects the competition and how the prize money will be distributed. Participants can then join by following the link or code given to them by the organisers. The tournament fixtures/festival schedule will be available to all participants upon entry, where they can select their predicted outcome for each match/race. Some research here might help to give you the edge!</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#ModalPredComps">Rules - Prediction Competitions
+                        </button>   
+                            <div class="modal fade" id="ModalPredComps" tabindex="-1" role="dialog" aria-labelledby="ModalPredComps" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="ModalPredComps">Rules - Prediction Competitions</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            •	The organiser sets the entry fee (€5, €10, €20 or €50).<br>
+                                            •	In football tournament “result predictor” competitions, there is 1 point awarded for a correct result and 2 points for the correct score.<br>
+                                            •	In horse racing predictor competitions, there are 2 points awarded for a jockey win and 1 point for a trainer win.<br>
+                                            •	Your entry will be confirmed upon receipt of payment.<br>
+                                            •	Once all players are entered, the draw will take place.<br>
+                                            •	The prize money distributed will be 95% of the pot after fees are deducted.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                     </div>
-                </li>
-                
-                <li class="nav-item col-12 col-md-3">
-                    <a class="nav-link" href="#">Why us?</a>
-                </li>
-            </ul>
+                </div>
         </div>
-    </div>  
-</header>
-<section>
-    <h2 id="sweepstakes">Sweepstakes</h2>
-    <p class="text-justify">Sweepstakes are fun ‘lottery style’ games where each participant goes into an    open draw and gets randomly drawn a team (or horse!) who can win them a prize. No   prior knowledge of the sport is required – or even helpful! Sweepstakes offered include the Grand National Sweepstake in horse racing and the FIFA World Cup final tournaments in football.
-    </p>
-    <img src="/assets/images/sweepstake.jpg" alt="Friends watching sport in front of a pot of money.">
-
-    <h3>How to Play</h3>
-    <p>Entry is easy, the organiser chooses the competition, the entry fee and sets the pot prize money distribution breakdown e.g. winner takes all etc. Once you have entered the competition and all players are in the draw will be done. Then it’s time to research your team, or horse, and hope they do the business and win you a prize plus some bragging rights!
-    </p>
-	
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-    Rules - Sweepstakes
-    </button>
-
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Rules - Sweepstakes</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+    </section>
+    <footer>
+        <div class="container-fluid text-center text-md-left">
+            <div class="row brand-blue font-exo pt-3 pb-3">
+                <div class="col-sm-4"> 
+                    <h5>Get in Touch
+                    </h5>
+                    <h6 class="bet pb-1">Contact Us:
+                    </h6>
+                    <p><i class="fa fa-phone mr-2" aria-hidden="true"></i><a href="tel:35318135508" class="badge badge-light">+353181355508</a></p>
+                    <p><i class="fa fa-envelope-o mr-2" aria-hidden="true"></i><a href="mailto:hello@friendlybet.com" class="badge badge-light">Email us</a></p>
                 </div>
-                <div class="modal-body">
-                    •	The organiser sets the entry fee (€5, €10, €20 or €50).<br>
-                    •	It is possible for the organiser to “enable multiple entries” allowing players to make more than one entry if there is a shortage of players needed.<br>
-                    •	Your entry will be confirmed upon receipt of payment.<br>
-                    •	Once all players are entered, the draw will take place.<br>
-                    •	The organiser determines the prize money distribution, i.e. “winner/first places takes all” before the draw and these can be viewed in each competition.<br>
-                    •	The prize money distributed will be 95% of the pot after fees are deducted.
-
+                <div class="col-sm-4 pl-3">
+                    <h5>Keep in Touch
+                    </h5>
+                    <h6 class="bet">Social Channels:
+                    </h6>
+                    <div class="div">
+                    <ul class="list-inline pr-md-3">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" class="badge badge-light" target="_blank">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/" class="badge badge-light" target="_blank">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" class="badge badge-light" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/" class="badge badge-light" target="_blank">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back to Games</button>
+                <div class="col-sm-4">
+                    <h5>Stay in Touch
+                    </h5>
+                    <h6 class="bet">Newsletter sign-up:
+                    </h6>
+                    <div class="form text-black my-2 my-lg-0">
+                    <input type="email" class="form-control my-2" id="exampleFormControlInput1" placeholder="Email address">
+                    <button class="btn btn-outline-success btn-sm" type="submit">Sign Up!</button>
+                </div>
                 </div>
             </div>
         </div>
-    </div>
-    <h2 id="lms">Last Man Standing</h2>
-    <p>Last Man Standing is a league-based competition whereby each player must select a different team in each game week of the league to win in the hope of progressing to the next round/game week. Those participants with winning selections will stay in the competition the next week while others will be knocked out. Your challenge is to be the last person standing and collect the prize money! Competitions offered include the Premier League in England and the League of Ireland.
-    </p>
-    <img src="/assets/images/lastmanstanding-resize1.jpg" alt="One man standing in celebration on a mountain.">
-
-    <h3>How to Play</h3>
-    <p>The organiser will choose the league, entry fee and start week for the competition. Once entered, players must choose one team each week and that team must win for them to progress. You cannot choose the same team more than once. In Last Man Standing, the key is knowing when to use your big teams and when to keep them for another day!
-    </p>
-	
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-    Rules - Last Man Standing
-    </button>
-
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Rules - Last Man Standing</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                </div>
-                <div class="modal-body">
-                    •	Each participant must select one team each week to win. If your selection fails to win (i.e. draws or loses) you are eliminated.<br>
-                    •	You can only choose the same team once (unless the competition progresses beyond the first series of fixtures).<br>
-                    •	The deadline for team selection is two hours before the first match of that week.<br>
-                    •	If you fail to submit a team you will be assigned the first team in alphabetical order you have not previously selected.<br>
-                    •	In a week where domestic cup competitions prevent the entry of some of the league’s teams, there will be no fixtures that week.<br>
-                    •	Where a match is postponed/cancelled due to unforeseen circumstances, those who selected the teams involved will progress to the next round.<br> 
-                    •	Email reminders will be sent out on a weekly basis along with previews. For GDPR purposes you must opt in to receive these reminders.<br>
-                    •	Entry fee is €5, €10, €20 or €40, depending on what the game organiser chooses.<br>
-                    •	The winner will receive 95% of the pot after fees are deducted.<br>
-                    •	If the competition is still running at the end of the season, it will continue from the start of the following season or, on proposal by the game organiser and following agreement by the remaining players, continue to another tournament.<br>
-                    •	If all remaining players lose, they all go through to the next round. If some of the remaining players draw and others lose, only the teams that drew progress. If all remaining players draw, they all progress to the next round.
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back to Games</button>
-                </div>
-            </div>
+        <div class="footer-copyright text-center py-0">
+          <small>© Copyright Friendly Bet, Convention Centre House, Beckett Bridge, Dublin 1, Ireland.</small>
         </div>
-    </div>
-    <h2 id="predcomp">Prediction Competitions</h2>
-    <p>Prediction Competitions give participants to chance to pit their wits against friends and colleagues predicting the correct scores and/or results of that particular tournament! Competitions offered include the FIFA World Cup in football, the Cheltenham racing festival and all four of the golf majors.
-    </p>
-    <img src="/assets/images/prediction-1.jpg" alt="Friends watching sport in front of a pot of money.">
-
-    <h3>How to Play</h3>
-    <p>The organiser selects the competition and how the prize money will be distributed. Participants can then join by following the link or code given to them by the organisers. The tournament fixtures/festival schedule will be available to all participants upon entry, where they can select their predicted outcome for each match/race. Some research here might help to give you the edge!
-    </p>
-	
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-    Rules - Prediction Competitions
-    </button>
-
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Rules - Prediction Competitions</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                </div>
-                <div class="modal-body">
-                    •	The organiser sets the entry fee (€5, €10, €20 or €50).<br>
-                    •	In football tournament “result predictor” competitions, there is 1 point awarded for a correct result and 2 points for the correct score.<br>
-                    •	In horse racing predictor competitions, there are 2 points awarded for a jockey win and 1 point for a trainer win.<br>
-                    •	Your entry will be confirmed upon receipt of payment.<br>
-                    •	Once all players are entered, the draw will take place.<br>
-                    •	The prize money distributed will be 95% of the pot after fees are deducted.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back to Games</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<footer>
-</footer>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
