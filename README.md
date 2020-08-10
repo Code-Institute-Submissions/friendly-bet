@@ -25,7 +25,8 @@ External users of the site have the following goals (including section of the we
 2.	Find out about the games (gametypes.html)
 3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
 4.	Find out how the game works (gametypes.html)
-5.	Understand the rules (gametypes.html - Modals included for specific game rules)
+5.	Understand the rules (gametypes.html - Modals included for specific game rules)  
+
 The site owner has the following goals:
 1.	Generate user interest in playing the games (index.html/why us?)
 2.	Allow users to easily understand the games and why they are fun (index.html/why us? and gametypes.html)
@@ -35,7 +36,7 @@ The site owner has the following goals:
 
     *Files in assets folder showing how user goals were achieved: 
     User Stories Screenshot 1 / User Stories Screenshot 2 / User Stories Screenshot 3
-    
+
 ## User Experience (UX)
 
 The brand colours of Friendly Bet are blue and orange, with a hint of white. The reason for the colour choice is 
