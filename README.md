@@ -11,10 +11,13 @@ games against each other for money, but mainly for fun and enjoyment. This type 
 as it is more similar to a lottery format than traditional betting/gambling, which in reality is against highly qualified 
 risk analysts and probably experts.  
 
-This project's aim to give users an understanding of the games available, how they can play them, what the rules are
-and what sports are covered. Users/fans can navigate by game type or sport. The project was slighly rushed due to only
-receiving the 'hard date' for the projects two weeks before due date. Only high level planning (without code) had been done at
-that point.  
+This project and website's aim to give users an understanding of the purpose of the platform, the games available (and how they can play them) and the rules for each game. There is also a section
+explaining the various sports covered so that fans can check if their favourite sport is available.    
+
+Users can navigate by game type or sport. The following three pages make up the website project:
+ - index.HTML
+ - gametypes.HTML
+ - sports.html
 
 
 
