@@ -20,14 +20,14 @@ Users can navigate by game type or sport. The following three pages make up the 
 
 ## User Stories
 
-External users of the site have the following goals (including section of the website goals are achieved):
+External users of the site have the following goals (brackets include the relevant area of website goals are achieved):
 1.	Find out about the website (index.html and sports.html)
 2.	Find out about the games (gametypes.html)
 3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
 4.	Find out how the game works (gametypes.html)
 5.	Understand the rules (gametypes.html - Modals included for specific game rules)  
 
-The site owner has the following goals:
+The site owner has the following goals (brackets include the relevant area of website goals are achieved):
 1.	Generate user interest in playing the games (index.html/why us?)
 2.	Allow users to easily understand the games and why they are fun (index.html/why us? and gametypes.html)
 3.	Make them likely to tell their friends about the games and share them (index.html/why us?)
