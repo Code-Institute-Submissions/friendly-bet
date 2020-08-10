@@ -4,15 +4,20 @@ Welcome john00neill,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
+## Description
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This project is based on a company specialising in 'friendly betting' games, that is; games where users play various
+games against each other for money, but mainly for fun and enjoyment. This type of game is also known as pooled betting' 
+as it is more similar to a lottery format than traditional betting/gambling, which in reality is against highly qualified 
+risk analysts and probably experts.  
 
-`python3 -m http.server`
+This project's aim to give users an understanding of the games available, how they can play them, what the rules are
+and what sports are covered. Users/fans can navigate by game type or sport. The project was slighly rushed due to only
+receiving the 'hard date' for the projects two weeks before due date. Only high level planning (without code) had been done at
+that point.  
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+
 
 To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
