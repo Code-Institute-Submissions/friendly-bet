@@ -1,4 +1,4 @@
-<img src="\images\fblogo1.JPG" style="margin: 0;">
+<img src="assets\images\fblogo1.jpg" style="margin: 0;">
 
 Welcome john00neill,
 
