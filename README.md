@@ -1,4 +1,5 @@
 <img src="assets\images\fblogo1.jpg" style="margin: 0;">
+![Friendly Bet Logo](/assets/images/fblogo1.jpg "Friendly bet Logo")
 
 Welcome john00neill,
 
