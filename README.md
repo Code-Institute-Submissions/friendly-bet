@@ -23,7 +23,7 @@ Live site:
 ## User Stories
 
 External users of the site have the following goals (brackets include the relevant area of website goals are achieved):
-1.	Find out about the website (index.html and sports.html)
+1.	Discover the purpose of the website (index.html and sports.html)
 2.	Find out about the games and how to play them (gametypes.html)
 3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
 4.	Find out the sports covered by the platform (sports.html)
@@ -61,6 +61,39 @@ The benefits of playing games offered by 'Friendly Bet' are clearly dipicted wit
 to the attention of users in the 'Why us?' section of index.html.
 
 ## Testing
+
+For testing, acceptance criteria was driven by the user stories (which include the navbar/header testing) and footer testing.
+Manual testing was carried out on the following five User Stories:
+
+1.	Discover the purpose of the website. Tests completed and outcomes:
+    - Users land on the home page index.html which displays a content introduction to the website.
+    - Navbar provides easy navigation and the navbar expands and collapses as expected.
+    - In index.html, all navbar links work to the 'Why Friendly Bet' section, Game Types page and Sports page.
+    - In gametypes.html and sports.html, all navbar links work to the 'Why Friendly Bet' section, 
+    Game Types page and Sports page.
+
+2.	Find out about the games and how to play them. Tests completed and outcomes:
+    - In gametypes.html, all three accordions for each Game Type (Last Man Standing, Sweepstakes and Prediction Competitions) 
+    expand and collapse as required.
+    
+3.	Determine whether the games will be fun / enjoyable. Tests completed and outcomes: (index.html/why us?)
+
+4.	Find out the sports covered by the platform. Tests completed and outcomes: (sports.html)
+    - In sports.html, all five accordions for each Sport (Football, Horse Racing, Golf, GAA and Rugby) expand 
+    and collapse as required.
+    - For Football, all three external links to websites work correctly.
+    - For Horse Racing, the two external links to websites work correctly.
+    - For Golf, the external link works correctly.
+    - For GAA, the external link works correctly.
+    - For Rugby, the two external links to websites work correctly.
+
+5.	Understand the rules. Tests completed and outcomes: (Modals in gametypes.html for specific game rules)
+    - Modal with Rules for Last Man Standing opens, displays the rules and closes as expected.
+    - Modal with Rules for Sweepstakes opens, displays the rules and closes as expected.
+    - Modal with Rules for Last Man Standing opens, displays the rules and closes as expected.
+
+
+
 Pingdom results in assets folder
 
 ## Features
