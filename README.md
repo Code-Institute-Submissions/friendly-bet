@@ -67,7 +67,7 @@ to the attention of users in the 'Why us?' section of index.html.
 For testing, acceptance criteria was driven by the user stories (which include the navbar/header testing) and footer testing.
 Manual testing was carried out on the following five **User Stories**:
 
-1.	**Discover the purpose of the website.** 
+1.	**Discover the purpose of the website.**  <br>
 Tests completed and outcomes:  
 - Users land on the home page index.html which displays a content introduction to the website.
 - Navbar provides easy navigation and the navbar expands and collapses as expected.
@@ -75,16 +75,16 @@ Tests completed and outcomes:
 - In gametypes.html and sports.html, all navbar links work to the 'Why Friendly Bet' section, 
 Game Types page and Sports page.
 
-2.	**Find out about the games and how to play them.** 
+2.	**Find out about the games and how to play them.**  <br>
 Tests completed and outcomes:
 - In gametypes.html, all three accordions for each Game Type (Last Man Standing, Sweepstakes and Prediction Competitions) 
     expand and collapse as required.
     
-3.	**Determine whether the games will be fun / enjoyable.** 
+3.	**Determine whether the games will be fun / enjoyable.**  <br>
 Tests completed and outcomes:
 - Link to benefits of website in 'Why Friendly Bet' section in index.html works on every page of the site.
 
-4.	**Find out the sports covered by the platform.** 
+4.	**Find out the sports covered by the platform.**  <br>
 Tests completed and outcomes:
 - In sports.html, all five accordions for each Sport (Football, Horse Racing, Golf, GAA and Rugby) expand 
     and collapse as required.
@@ -94,7 +94,7 @@ Tests completed and outcomes:
 - For GAA, the external link works correctly.
 - For Rugby, the two external links to websites work correctly.
 
-5.	**Understand the rules.** 
+5.	**Understand the rules.** <br>
 Tests completed and outcomes: 
 - Modal with Rules for Last Man Standing opens, displays the rules and closes as expected.
 - Modal with Rules for Sweepstakes opens, displays the rules and closes as expected.
