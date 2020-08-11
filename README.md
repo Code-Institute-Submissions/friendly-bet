@@ -1,5 +1,3 @@
-<img src="assets/images/fblogo1.jpg" style="margin: 0;">
-
 ![Friendly Bet Logo](\assets\images\fblogo1.jpg "Friendly bet Logo")
 
 This README.md file explains the descritpion, purpose and make-up of the Friendly Bet website. 
@@ -17,6 +15,10 @@ Users can navigate by game type or sport. The following three pages make up the 
  - index.html
  - gametypes.html
  - sports.html
+
+## Links
+Wireframes: assets\friendly-bet-wireframes\bmpr
+Live site:
 
 ## User Stories
 
@@ -58,27 +60,51 @@ touch via social channels or sign up to the newsletter for updates.
 The benefits of playing games offered by 'Friendly Bet' are clearly dipicted with green tick icons, quickly drawing them
 to the attention of users in the 'Why us?' section of index.html.
 
+## Testing
+Pingdom results in assets folder
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
+The navbar uses a responsive collapseable Javascript plug-in. This allows users to toggle between the navigation
+options, while keeping the brand logo at the top of the viewport at all times.
 
-A blue button should appear to click: *Make Public*,
+In the gametypes.html file, users are given a brief introdution to each game, details of how a game is played
+and a more definitive set of rules for those looking for a deeper understanding. The rules can be accessed from 
+a modal - this is the 'less fun', more serious content is not taking up large sections of a page that predominantly
+aims to focus on the fun aspects of the games. The button type used from the Bootstrap framework is the button
+'info' class which reprents what the users are accessing. The secondary button is used for closing.
 
-Another blue button should appear to click: *Open Browser*.
+Within sports.html, external links to sport fixtures and schedules are displayed with an arrow pointed right
+to give clarity to users that they are leaving the site. 'target=_blank' is used to ensure users can easily 
+navigate back to the Friendly Bet site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+In both gametypes and sports pages, collapse components are used to allow users to toggle their preferred choice without
+having all options open at once. The show class is used to display the first option on each page for visual effect when 
+users land on the gametypes/sport page.
 
-## Updates Since The Instructional Video
+## Issues and Bugs
+Issues include the rushed nature of the project as mentioned in the description. It meant more detailed features
+could not be tested or included. However, they can be for future projects.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Scalability
+The project represents huge opportunities for scalability and future iterations. Live games could be added, 
+based on the documented formats, which utilise JavaScript to bring the games alive for the user, add backend 
+funtionality and manage databases to store customer data, connect to live data API's etc. Features may include
+user accounts, live tables, share functionality and ultimately UX driven game development. Fixtures and blogs can
+also be incorporated, reducing the need for users to access external websites and increasing 'quality' traffic - 
+users already interested in the subject matter.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Technologies
+The Bootstrap framework was frequently used throughout the side. The grid was used to layout the website. Many components
+on the site were taken from Bootstrap and subsequently customised.
+Jquery, popper and bootstrap cdn js plug-ins were copy and pasted to the site from w3schools.com.
+Fontawesome was used for the icons in social links, external links, greens ticks and contact links.
+Unsplashed.com was mostly used for the images on the site (total 7), as well as Google images (total 3).
+Logopony.com was used to generated the logo, a screenshot was subsequently taken of it and uploaded.
+Google Fonts was used and plugged-in for the 'Exo 2' font and expolration of other fonts.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Acknowledgements
+CI Mentor - Felipe was excellent in giving advice around the planning and execution of the project, including several
+useful tips and resources. He was always available for calls, emails or IMs. CI support provided help and guidance throughout.
 
---------
-
-Happy coding!
