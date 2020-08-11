@@ -2,9 +2,7 @@
 
 ![Friendly Bet Logo](\assets\images\fblogo1.jpg "Friendly bet Logo")
 
-Welcome john00neill,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This README.md file explains the descritpion, purpose and make-up of the Friendly Bet website. 
 
 ## Description
 
@@ -24,10 +22,10 @@ Users can navigate by game type or sport. The following three pages make up the 
 
 External users of the site have the following goals (brackets include the relevant area of website goals are achieved):
 1.	Find out about the website (index.html and sports.html)
-2.	Find out about the games (gametypes.html)
+2.	Find out about the games and how to play them (gametypes.html)
 3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
-4.	Find out how the game works (gametypes.html)
-5.	Understand the rules (gametypes.html - Modals included for specific game rules)  
+4.	Find out the sports covered by the platform (sports.html)
+5.	Understand the rules (Modals in gametypes.html for specific game rules)  
 
 The site owner has the following goals (brackets include the relevant area of website goals are achieved):
 1.	Generate user interest in playing the games (index.html/why us?)
@@ -36,6 +34,7 @@ The site owner has the following goals (brackets include the relevant area of we
 4.	Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, 
     Grand National etc (sports.html)
 
+![]   
     *Files in assets folder showing how user goals were achieved: 
     User Stories Screenshot 1 / User Stories Screenshot 2 / User Stories Screenshot 3
 
