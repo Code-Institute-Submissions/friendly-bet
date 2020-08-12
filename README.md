@@ -19,26 +19,26 @@ Users can navigate by Game Type or Sport. The following three pages make up the 
 
 ## User Stories
 
-External users of the site have the following goals (including relevant section of website where users reach goal):
-1.	Discover the purpose of the website (index.html and sports.html)
+External users of the site have the following 5 **User Goals** (including relevant section of website where users reach goal):
+1.	**Discover the purpose of the website** (navbar throughout)
     ![Friendly Bet Navigation](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USnav1.jpg "Friendly Bet Navigation")
-2.	Find out about the games and how to play them (gametypes.html)
+2.	**Find out about the games and how to play them** (Game Types page)
     ![Game Types](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USgametypes.jpg "Game Types")
-3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
+3.	**Determine whether the games will be fun / enjoyable** (Enjoyable features on Home page)
     ![Why Play](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USwhyplayFBgames.jpg "Why Play")
-4.	Find out the sports covered by the platform (sports.html)
+4.	**Find out the sports covered by the platform** (Sports page)
     ![Sports](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USsports.jpg "Sports")
-5.	Understand the rules (Modals in gametypes.html for specific game rules)
+5.	**Understand the rules** (Modals in Game Types page for specific game rules)
     ![Rules](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USrules.jpg "Rules")
 
 The site owner has the following goals (brackets include the relevant area of website goals are achieved):
-1.	Generate user interest in playing the games (index.html/why us?)
+1.	**Generate user interest in playing the games** (Home page introduction, benefits and navbar)
     ![Why Play](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USwhyplayFBgames.jpg "Why Play")
-2.	Allow users to easily understand the games and why they are fun (index.html/why us? and gametypes.html)
+2.	**Allow users to easily understand the games and why they are fun** (Game Types page and how to play)
     ![Game Types](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USgametypes.jpg "Game Types")
-3.	Make them likely to tell their friends about the games and share them (index.html/why us?)
-4.	Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, 
-    Grand National etc (sports.html)
+3.	**Make them likely to tell their friends about the games and share them** (index.html/why us?)
+4.	**Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, Grand National etc** 
+(Sports page links and info about official tournaments)
     ![Sports Events](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USsportseventsGN.jpg "Sports Events")
 
 
