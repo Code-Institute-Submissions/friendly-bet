@@ -1,4 +1,4 @@
-![Friendly Bet Logo](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/fblogo1.JPG "Friendly bet Logo")
+![Friendly Bet Logo](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/fblogo1.jpg "Friendly bet Logo")
 
 This is the README.md file for the project to develop a static, informational website for 'Friendly Bet'. 
 
