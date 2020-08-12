@@ -1,4 +1,4 @@
-![Friendly Bet Logo](\assets\images\fblogo1.jpg "Friendly bet Logo")
+![Friendly Bet Logo](assets/images/fblogo1.jpg "Friendly bet Logo")
 
 This is the README.md file for the project to develop a static, informational website for 'Friendly Bet'. 
 
