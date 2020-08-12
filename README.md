@@ -1,4 +1,4 @@
-![Friendly Bet Logo](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/fblogo1.jpg "Friendly bet Logo")
+![Friendly Bet Logo](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/fblogo1.JPG "Friendly bet Logo")
 
 This is the README.md file for the project to develop a static, informational website for 'Friendly Bet'. 
 
@@ -21,7 +21,7 @@ Users can navigate by Game Type or Sport. The following three pages make up the 
 
 External users of the site have the following goals (including relevant section of website where users reach goal):
 1.	Discover the purpose of the website (index.html and sports.html)
-    ![Friendly Bet Navigation](\assets\images\USnav1.jpg "Friendly Bet Navigation")
+    ![Friendly Bet Navigation](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USnav1.jpg "Friendly Bet Navigation")
 2.	Find out about the games and how to play them (gametypes.html)
     ![Game Types](\assets\images\USgametypes.jpg "Game Types")
 3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
