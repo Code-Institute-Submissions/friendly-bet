@@ -36,7 +36,7 @@ The site owner has the following goals (brackets include the relevant area of we
     ![Why Play](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USwhyplayFBgames.jpg "Why Play")
 2.	**Allow users to easily understand the games and why they are fun** (Game Types page and how to play)
     ![Game Types](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USgametypes.jpg "Game Types")
-3.	**Make them likely to tell their friends about the games and share them** (index.html/why us?)
+3.	**Encourage users to tell their friends about the games and share them** (Benefits on Home page and info in Game Types/Sports pages)
 4.	**Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, Grand National etc** 
 (Sports page links and info about official tournaments)
     ![Sports Events](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USsportseventsGN.jpg "Sports Events")
