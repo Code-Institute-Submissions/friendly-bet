@@ -1,4 +1,4 @@
-![Friendly Bet Logo](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/fblogo1.JPG "Friendly bet Logo")
+![Friendly Bet Logo](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/fblogo1.jpg "Friendly bet Logo")
 
 This is the README.md file for the project to develop a static, informational website for 'Friendly Bet'. 
 
@@ -23,23 +23,23 @@ External users of the site have the following goals (including relevant section 
 1.	Discover the purpose of the website (index.html and sports.html)
     ![Friendly Bet Navigation](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USnav1.jpg "Friendly Bet Navigation")
 2.	Find out about the games and how to play them (gametypes.html)
-    ![Game Types](\assets\images\USgametypes.jpg "Game Types")
+    ![Game Types](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USgametypes.jpg "Game Types")
 3.	Determine whether the games will be fun / enjoyable (index.html/why us?)
-    ![Why Play](\assets\images\USwhyplayFBgames.jpg "Why Play")
+    ![Why Play](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USwhyplayFBgames.jpg "Why Play")
 4.	Find out the sports covered by the platform (sports.html)
-    ![Sports](\assets\images\USsports.jpg "Sports")
+    ![Sports](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USsports.jpg "Sports")
 5.	Understand the rules (Modals in gametypes.html for specific game rules)
-    ![Rules](\assets\images\USrules.jpg "Rules")
+    ![Rules](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USrules.jpg "Rules")
 
 The site owner has the following goals (brackets include the relevant area of website goals are achieved):
 1.	Generate user interest in playing the games (index.html/why us?)
-    ![Why Play](\assets\images\USwhyplayFBgames.jpg "Why Play")
+    ![Why Play](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USwhyplayFBgames.jpg "Why Play")
 2.	Allow users to easily understand the games and why they are fun (index.html/why us? and gametypes.html)
-    ![Game Types](\assets\images\USgametypes.jpg "Game Types")
+    ![Game Types](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USgametypes.jpg "Game Types")
 3.	Make them likely to tell their friends about the games and share them (index.html/why us?)
 4.	Users associate upcoming sporting events with the games themselves e.g. Premier League, Masters Golf, 
     Grand National etc (sports.html)
-    ![Sports Events](\assets\images\USsportseventGN.jpg "Sports Events")
+    ![Sports Events](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/USsportseventsGN.jpg "Sports Events")
 
 
 ## User Experience (UX)
@@ -108,7 +108,7 @@ Tests completed and outcomes:
 
 ##### Pingdom (Performance Testing)
 Pingdom Performance Grade: B88.
-![Pingdom Testing Results](\assets\images\Pingdom%20Test%20Results.jpg "Pingdom Testing Results")
+![Pingdom Testing Results](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Pingdom%20Test%20Results.jpg "Pingdom Testing Results")
 
 ## Features
 
@@ -150,13 +150,13 @@ Logopony.com was used to generated the logo, a screenshot was subsequently taken
 Google Fonts was used and plugged-in for the 'Exo 2' font and expolration of other fonts.
 
 ## Wireframes
-![Wireframe 1](\assets\images\Wireframe1.jpg "Wireframe 1")
-![Wireframe 2](\assets\images\Wireframe2.jpg "Wireframe 2")
-![Wireframe 3](\assets\images\Wireframe3.jpg "Wireframe 3")
-![Wireframe 4](\assets\images\Wireframe4.jpg "Wireframe 4")
-![Wireframe 5](\assets\images\Wireframe5.jpg "Wireframe 5")
-![Wireframe 6](\assets\images\Wireframe6.jpg "Wireframe 6")
-![Wireframe 7](\assets\images\Wireframe7.jpg "Wireframe 7")
+![Wireframe 1](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe1.jpg "Wireframe 1")
+![Wireframe 2](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe2.jpg "Wireframe 2")
+![Wireframe 3](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe3.jpg "Wireframe 3")
+![Wireframe 4](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe4.jpg "Wireframe 4")
+![Wireframe 5](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe5.jpg "Wireframe 5")
+![Wireframe 6](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe6.jpg "Wireframe 6")
+![Wireframe 7](https://github.com/RoyoftheRavers/friendly-bet-games-dev/blob/master/assets/images/Wireframe7.jpg "Wireframe 7")
 
 
 ## Acknowledgements
